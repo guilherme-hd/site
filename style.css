@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Noto+Serif:ital@1&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size:100%;
+    background: #201b2c;
+}
+.cabesariopai{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #0f0e1b;
+    box-shadow: 1px 2px 4px #181725;
+}
+.logo{
+    width: 100px;
+}
+.cabesario-nav{
+    display: flex;
+    gap: 32px;
+}
+.cabesario{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.principal{
+    margin-bottom: 48px;
+    margin-top: 0.4px solid  rgb(255, 255, 255);
+
+}
+
+.principal_2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.principal_3{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo_perguntas{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #77ffc0;
+}
+.perguntas{
+    font-family: 'Sarala', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #77ffc0;
+}
+.saiba_mais{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #211f2c;
+    width: 180px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 3px 4px #00000056;
+    color: aliceblue;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#0f0e1b ;
+    height: 110px;
+    font-family: 'Sarala', sans-serif;
+    color: rgb(255,255, 255);
+    align-items: center;
+    background-position: left; 
+}
+
+.contato{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.famacia{
+    background-image: 100%;
+}
+
+
+

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.main-login{
+   width: 100vw;
+   height: 100vh;
+   background: #201b2c;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.left-login{
+    width: 50vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login > h1{
+    color: #77ffc0;
+}
+.right-login{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 60px;
+    border-radius: 20px;
+    background-color: #2f2841;
+    box-shadow: 0 10px 40px #00000056;
+}
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 4px;
+}
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-sizing: 10px;
+    padding: 15px;
+    background:  #514869;
+    color: f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 04px;
+}
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+.btn-login{
+    width: 60%;
+    padding: 16px 0px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    background: #00ff88;
+}
